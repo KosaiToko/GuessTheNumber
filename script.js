@@ -79,3 +79,9 @@ function resetGame() {
   
     randomNumber = Math.floor(Math.random() * 100) + 1;
 };
+
+guesses.textContent = 'Previous guesses: '
+guesses.style.fontSize = '200%';
+guesses.style.padding = '10px';
+guesses.style.boxShadow = '3px 3px 6px black';
+guesses.style.backgroundColor = 'lightblue';
